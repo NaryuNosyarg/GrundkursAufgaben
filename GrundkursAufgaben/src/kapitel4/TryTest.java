@@ -3,7 +3,7 @@ package kapitel4;
 public class TryTest {
 	public static void main(String[] args) {
 		int persNummer = 100456;
-		int rang = 1;
+		int rang = 4;
 		Rang r = null;
 
 		try {

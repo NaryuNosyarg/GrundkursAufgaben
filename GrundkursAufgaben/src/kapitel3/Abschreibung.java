@@ -20,6 +20,10 @@ public class Abschreibung {
 		double x;
 		x = anschaffungspreis / nutzungsjahre;
 		System.out.println("linear");
+		for(int i = 1; i <= nutzungsjahre; i++){
+			anschaffungspreis -= x;
+			System.out.println(i + "\t" + anschaffungspreis);
+		}
 
 	}
 

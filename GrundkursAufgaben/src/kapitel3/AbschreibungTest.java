@@ -10,8 +10,8 @@ public class AbschreibungTest {
 		Abschreibung abschreibung3 = new Abschreibung(15000, 40, 10);
 		abschreibung3.geometrischDegressiveAbschreibung();
 		
-		SubKonto konto = new SubKonto(4, 100, 5);
-		konto.schreibeZinsengut(5);
+		SubKonto konto = new SubKonto(4, 100);
+		konto.schreibeZinsenGut(5);
 		System.out.println(konto.getSaldo());
 	}
 }

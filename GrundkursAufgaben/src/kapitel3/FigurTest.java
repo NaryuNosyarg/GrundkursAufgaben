@@ -8,7 +8,7 @@ public class FigurTest {
 		f[2] = new Kreis(100, 50, 12);
 		f[3] = new RechtwinkligesDreieck(3, 7, 4, 5);
 
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 4; i++) {
 			f[i].zeichne();
 			System.out.println("Flaeche: " + f[i].getFlaeche());
 		}
